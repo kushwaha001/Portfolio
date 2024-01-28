@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- FAVICON -->
+<link rel="icon" href="C:\Users\ASUS\Desktop\Porrtfolio\favicon_package_v0.16\favicon-16x16.png" type="image/favicon">
+
+<!--Bootstarp 5 cdn link-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<!-- Custom file links-->
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="responsive_style.css">
+</head>
+
+
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="75">   <!--All navigation changes like different section getting active whhile scrolling downwards-->
+    <!-- Navbar -->
+    <header class="header_wrapper">
+        <nav class="navbar navbar-expand-lg fixed top">
+            <div class="container">
+              <a class="navbar-brand" href="#">
+                <img src="C:\Users\ASUS\Desktop\Porrtfolio\favicon_package_v0.16\favicon.ico" class="img-fluid" alt="logo">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <!--<span class="navbar-toggler-icon"></span>-->
+                <i class="fas fa-stream navbar-toggler-icon"></i>
+              </button>
+              <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav menu-navbar-nav">  <!--menu navba nav is custom class-->
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#services">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                  </li>
+                  <li class="nav-item mt-3 mt-lg-0">
+                    <a class="main-btn" href="#contact">Hire Me!</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <!--Banner Section-->
+    <section id="home" class="banner_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center text-md-start"></div> 
+        <!-- /*col-sm-12      // This class is likely defining a column layout for small-sized screens (sm). It spans the entire width of the container (12 columns).
+          text-center    // This class is used to horizontally center the text within the element.
+          text-md-start  // This class is used to align the text to the start (left) on medium-sized screens (md).
+        */  -->
+        <h6>Welcome to my World !</h6>
+        <h1>I'm Kanishk Kushwaha.<br><span>JS Dev.</span><br>based in India.</h1>
+        <div class="mt-4">
+          <a class="main-btn" href="">Download CV</a>
+        </div>      
+      </div>
+    </section>
+
+    <!--About Section-->
+    <section id="about" class="about_wrapper">
+      <div class="container">
+        <div class="row justify-content-between align-items-center">
+          <div class="col-lg-5 mb-4 mb-lg-0">
+            <img src="C:\Users\ASUS\Desktop\Porrtfolio\itachi-wallpaper-fldq4uzhzz2eubvj.webp" class="img-fluid rounded-3" alt="About Us">
+          </div>
+          <div class="col-lg-7 ps-lg-5 text-center text-lg-start">
+            <div class="my-3 my-lg-0">
+              <span class="subtitle">My Details</span>
+              <h2>About Me</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus nemo nisi deleniti dolor est, doloremque explicabo, cumque numquam molestiae ullam dolores adipisci quo minus ea error earum eos modi. Aliquid.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam error dolores ab accusamus doloribus voluptates iste, dolorem voluptate consectetur eos aperiam dolor vitae aut modi minus expedita alias ullam qui.
+              </p>
+            </div>
+            <div class="pt-4">
+              <ul class="nav nav-pills justify-content-center justify-content-lg-between mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-skill-tab" data-bs-toggle="pill" data-bs-target="#pills-skill" type="button" role="tab" aria-controls="pills-skill" aria-selected="true">Main Skills</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-Award-tab" data-bs-toggle="pill" data-bs-target="#pills-Award" type="button" role="tab" aria-controls="pills-Award" aria-selected="false">Awards</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-Education-tab" data-bs-toggle="pill" data-bs-target="#pills-Education" type="button" role="tab" aria-controls="pills-Education" aria-selected="false">Education</button>
+                </li>
+
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-experiance-tab" data-bs-toggle="pill" data-bs-target="#pills-experiance" type="button" role="tab" aria-controls="pills-experiance" aria-selected="false">Experiance</button>
+                </li>
+
+              </ul>
+            
+
+             <div class="tab-content" id="pills-tabContent">
+                
+              <div class="tab-pane fade show active" id="pills-skill" role="tabpanel" aria-labelledby="pills-skill-tab">
+                  
+                <div class="single-progress">
+                    <h6>Designing</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 95%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span class="label">95%</span>
+                    </div>
+                    
+                    
+                    <div class="single-progress">
+                      <h6>Management</h6>
+                      <div class="progress">
+                        <div class="progress-bar" role="progressbar" style="width: 75%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                        <span class="label">75%</span>
+                      </div>
+                  
+
+                  <div class="single-progress">
+                    <h6>Marketing</h6>
+                    <div class="progress">
+                      <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                      </div>
+                      <span class="label">65%</span>
+                    </div>
+                
+
+                <div class="single-progress">
+                  <h6>Development</h6>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                  <span class="label">85%</span>
+                </div>
+              </div>
+            </div>
+         
+              
+              
+      
+
+            <div class="tab-pane fade" id="pills-Award" role="tabpanel" aria-labelledby="pills-Award-tab">
+                <ul class="text-start ps-0">
+                  <li>
+                    <a href="#">IBM Hackathon
+                      <span>-Winner</span>
+                    </a>
+                    2019-2020
+                  </li>
+                  <li>
+                    <a href="#">CSS Design Awards
+                      <span>-Winner</span>
+                    </a>
+                    2017-2018
+                  </li>
+                  
+                  <li>
+                    <a href="#">Web3Dev
+                    <span>-site of the day</span>
+                  </a>
+                  2016-2019
+                  </li>
+                </ul>
+              </div>
+
+              <div class="tab-pane fade" id="pills-experiance" role="tabpanel" aria-labelledby="pills-experiance-tab">
+                
+                <ul class="text-start ps-0">
+                  <li>
+                    <a href="#">Sr. Front-end Dev</a>
+                    <span>Google</span>
+                    2017-2018
+                  </li>
+
+                  <li>
+                    <a href="#">Full-Stack Dev</a>
+                    <span>IBM</span>
+                    2017-2018
+                  </li>
+
+                  <li>
+                    <a href="#">Sr. Engineer </a>
+                    <span>Microsoft</span>
+                    2017-2018
+                  </li>
+                
+                </ul>
+              </div>
+
+                  <div class="tab-pane fade" id="pills-Education" role="tabpanel" aria-labelledby="pills-Education-tab">
+                    <ul class="text-start ps-0">
+                      <li>
+                        <a href="#">Btech in AI and DS
+                          <span>-Gati Shakti Vishwavidyalaya</span>
+                        </a>
+                        2023-2027
+                      </li>
+                      <li>
+                        <a href="#">JEE Advance Prep
+                          <span>CSRL Super 30 </span>
+                        </a>
+                        2022-2023
+                      </li>
+                      
+                      <li>
+                        <a href="#">Schooling
+                        <span>-St. John's School </span>
+                      </a>
+                      2008-2022
+                      </li>
+                    </ul>
+                  </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Services section-->
+    <section id="services" class="services_wrapper">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 text-center mb-4">
+            <span class="subtitle">What can I do for you</span>
+            <h2>My Awesome Service</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit,<br class="d-none d-md-block">
+            but the majority is all that we lost.</p>
+
+          </div>
+        </div>
+      </div>
+           
+           <div class="cardss">
+          <div class="card1">
+            <div class="card body text-md-start text-center">
+              <i class='fas fa-user-secret' style='font-size:148px;color:slateblue'></i>></i>></i>
+                <h3>Cyber Security</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, hic!</p>   
+            </div>
+          </div>
+       
+           
+        
+        <div class="card2">
+          <div class="card body text-md-start text-center">
+            <i class='fas fa-file-code' style='font-size:150px;color:forestgreen'></i>></i>></i>
+              <h3>Programmer</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, hic!</p>   
+          </div>
+        </div>
+      
+
+      
+      <div class="card3">
+        <div class="card body text-md-start text-center">
+          <i class='fas fa-dice-d6' style='font-size: 150px; color:darkblue '></i>></i>
+            <h3>Marketing</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, hic!</p>   
+        </div>
+      </div>
+   
+
+    
+    <div class="card4">
+      <div class="card body text-md-start text-center">
+        <i class='fas fa-chess' style='font-size:148px;color:red'></i></i>></i>
+          <h3>Strategy Making</h3>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, hic!</p>   
+      </div>
+    </div>
+  </div>
+</div>
+      </div>
+    </section>
+
+    <!--Contact section-->
+    <section id="contact" class="contact_wrapper">
+     <div class="row justify-content-between align-items-center">
+      <div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
+      <span class="subtitle">My Complete Project</span>
+      <h2>Hire Me.</h2>
+      <div class="row call_details mb-4">
+        <label class="col-sm-3 col-lg-4">Call us directly:</label>
+
+        <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+          <a href="javascript:void(0)">+111 (0)55 5869 8976</a>
+          </div>
+
+          <label class="col-sm-3 col-lg-4">Contact Email:</label>
+          
+          <div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+            <a href="mailto:example@gmail.com">example@gmail.com</a>
+          </div>
+        </div>
+        <form>
+          <div class="mb-4">
+            <input type="text" class="form-control" placeholder="Your Name..." autocomplete="off">
+          </div>
+
+          <div class="mb-4">
+            <input type="number" class="form-control" placeholder="Your Phone..." autocomplete="off">
+          </div>
+
+          <div class="mb-4">
+            <input type="email" class="form-control" placeholder="Your Mail..." autocomplete="off">
+          </div>
+
+          <div class="mb-4">
+            <textarea name="" id="message" placeholder="Write a Message..." cols="40" rows="4" class="form-control" autocomplete="off"></textarea>
+          </div>
+             <button type="submit" class="main-btn">Submit</button>
+
+        </form>
+      </div>
+      <div class="col-lg-6 order-1 mb-4 order-lg-1 mb-lg-0">
+        <img src="C:\Users\ASUS\Desktop\Porrtfolio\one-piece-wallpaper.jpg" class="img-fluid" >
+      </div>
+      </div>
+      </div>
+     </div>
+    </section>
+
+    <!--Footer Section-->
+<section id="contact" class="footer_wrapper mt-3 mt-md-0">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-lg-4 col-md-6 text-center text-md-start">
+        <div class="footer_logo mb-3 mb-md-0">
+          <img src="C:\Users\ASUS\Desktop\Porrtfolio\android-chrome-192x192.png" class="img-fluid">
+
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6">
+        <ul class="list-unstyled d-flex justify-content-center justify-content-md-end jsutify-content-lg-center social-icon mb-3 mb-md-0">
+          <li>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+          </li>
+
+          <li>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+          </li>
+
+          <li>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+          </li>
+
+          <li>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+          </li>
+
+        </ul>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="copyright-text text-lg-start text-center mb-3 mb-lg-0">
+          <p class="mb-0"> Copyright &copy; 2004 <a href="#">Kanishk</a>. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+    <!--Bootstarp 5 js cdn links-->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    
+    <!-- Custom JS link-->
+    <script src="js/main.js"></script>
+    
+</body>
+</html>
